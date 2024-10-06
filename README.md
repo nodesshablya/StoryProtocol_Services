@@ -22,12 +22,12 @@ The script will present a menu where you can select from the following options:
 
 Installation Steps Overview:
 
-1)Install Dependencies: The script updates your system and installs essential dependencies such as `curl`, `git`, `make`, `jq`, `gcc`, and others.
+1) Install Dependencies: The script updates your system and installs essential dependencies such as `curl`, `git`, `make`, `jq`, `gcc`, and others.
 
-2)Install Story-Geth: Downloads the Story-Geth binary and installs it in `$HOME/go/bin`. This is the main component to run geth.
+2) Install Story-Geth: Downloads the Story-Geth binary and installs it in `$HOME/go/bin`. This is the main component to run geth.
 
-3)Install Story: Installs the Story Consensus Client and configures the binary path.
+3) Install Story: Installs the Story Consensus Client and configures the binary path.
 
-4)Node Initialization: The script prompts the user for a "moniker" for the node and initializes it using the Iliad network.
+4) Node Initialization: The script prompts the user for a "moniker" for the node and initializes it using the Iliad network.
 
-5)Create systemd Services: It configures and enables `story-geth` and `story` services for automatic process management using systemd.
+5) Create systemd Services: It configures and enables `story-geth` and `story` services for automatic process management using systemd.
